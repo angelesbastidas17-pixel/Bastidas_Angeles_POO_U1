@@ -6,10 +6,12 @@ package uni1a;
 // Subclase Documental que extiende de ContenidoAudiovisual
 public class Documental extends ContenidoAudiovisual {
     private String tema;
+    private Investigador investigador;
 
-    public Documental(String titulo, int duracionEnMinutos, String genero, String tema) {
+    public Documental(String titulo, int duracionEnMinutos, String genero, String tema, Investigador investigador) {
         super(titulo, duracionEnMinutos, genero);
         this.tema = tema;
+        this.investigador = investigador;
     }
 
     public String getTema() {
@@ -28,6 +30,7 @@ public class Documental extends ContenidoAudiovisual {
         System.out.println("Duración en minutos: " + getDuracionEnMinutos());
         System.out.println("Género: " + getGenero());
         System.out.println("Tema: " + this.tema);
+        System.out.println("Investigador: "+investigador);
         System.out.println();
     }
 }
