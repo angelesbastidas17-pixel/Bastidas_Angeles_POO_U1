@@ -30,7 +30,7 @@ public class Documental extends ContenidoAudiovisual {
         System.out.println("Duración en minutos: " + getDuracionEnMinutos());
         System.out.println("Género: " + getGenero());
         System.out.println("Tema: " + this.tema);
-        System.out.println("Investigador: "+investigador);
+        System.out.println("Investigador: "+investigador.getNombre());
         System.out.println();
     }
 }
