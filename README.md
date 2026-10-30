@@ -32,11 +32,11 @@ El sistema resuelve la necesidad de catalogar distintos formatos multimedia (pel
 1. En la barra de menú superior de Eclipse, selecciona **`File` > `Import...`**.
 2. En la ventana emergente, despliega la carpeta **`Git`**, selecciona la opción **`Projects from Git (with smart import)`** y haz clic en **`Next >`**.
 3. Selecciona **`Clone URI`** y presiona **`Next >`**.
-4. En el campo **`URI`**, pega el enlace de este repositorio: `https://github.com/angelesbastidas17-pixel/Bastidas_Angeles_POO_U1.git`
-   Los campos Host y Repository path se autocompletarán automáticamente. Haz clic en `Next >`.
-5. Asegúrate de que la rama principal (main o master) esté marcada con un visto y haz clic en `Next >`.
-6. Verifica o elige la carpeta en tu computadora donde se guardará la copia local del proyecto y haz clic en `Next >`.
-7. En la ventana Import Projects from File System or Archive, verifica que el proyecto aparezca seleccionado en la casilla Folder con el estado Project (Eclipse project) y haz clic en `Finish`.
+4. En el campo **`URI`**, pega el enlace de este repositorio: **`https://github.com/angelesbastidas17-pixel/Bastidas_Angeles_POO_U1.git`
+5. Los campos Host y Repository path se autocompletarán automáticamente. Haz clic en `Next >`.
+6. Asegúrate de que la rama principal (main o master) esté marcada con un visto y haz clic en `Next >`.
+7. Verifica o elige la carpeta en tu computadora donde se guardará la copia local del proyecto y haz clic en `Next >`.
+8. En la ventana Import Projects from File System or Archive, verifica que el proyecto aparezca seleccionado en la casilla Folder con el estado Project (Eclipse project) y haz clic en `Finish`.
 
 ## Pasos para ejecutar localmente:
 1. En el panel Package Explorer, despliega el proyecto y navega hasta `src/main/java/poo/PruebaAudioVisual.java.`
